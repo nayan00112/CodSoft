@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.container_nav {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    align-items: center;
+
+}
+header {
+    background-color:#B0C5A4;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav div ul  {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a { 
+    text-decoration: none;
+}
+
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"],
+.search-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.search-form input[type="text"] {
+    width: 200px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    background-color: #555;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #777;
+}
+
+header {
+    background-color: #B0C5A4;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    box-shadow: 0 0 10px 10px #ebebeb;
+    border-radius: 10px;
+    margin: 2rem;
+    padding:2rem;
+}
+.product-card button{
+    display: block; 
+    margin: auto;
+    width: 100%;
+    margin: 2px;
+    padding: 6px;
+    background-color: #B0C5A4;
+    color: #1b1f18;
+    border:0;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-card img{
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    height: 200px;
+    margin-top:30px ;
+    margin-bottom: 20px;
+
+}
+footer {
+    background-color: #65775b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
